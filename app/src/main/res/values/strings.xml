@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Avia Peak</string>
+    <string name="facebook_app_id">525514859506970</string>
+    <string name="fb_login_protocol_scheme">fb525514859506970</string>
+    <string name="facebook_client_token">9238d2d351c2ccef951cfe86fbeecb12</string>
+    <string name="file_chooser_title">Choose image</string>
+    <string name="cannot_open_file_chooser_txt">Can not open file chooser</string>
+    <string name="camera_permission_granted_txt">Permission granted</string>
+    <string name="camera_permission_denied_txt">Permission denied</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

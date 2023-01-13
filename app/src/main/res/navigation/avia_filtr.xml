@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filter_navvv"
+    app:startDestination="@id/ivcuucvh">
+
+    <fragment
+        android:id="@+id/ivcuucvh"
+        android:name="com.superking.parchisi.stary.kxizjsu.MainFrag"
+        android:label="kcxijcx"
+        tools:layout="@layout/txuzusa" >
+        <action
+            android:id="@+id/okxckoxc"
+            app:destination="@id/ockxkoxcds"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/ockxkoxcds"
+        android:name="com.superking.parchisi.stary.nvucids.CountryAvia"
+        android:label="qoskdji"
+        tools:layout="@layout/lodissw" >
+        <action
+            android:id="@+id/bovkovvds"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/okvbijvbivbj" />
+    </fragment>
+    <fragment
+        android:id="@+id/okvbijvbivbj"
+        android:name="com.superking.parchisi.stary.kxizjsu.SecAviaFiltr"
+        android:label="okcxjivids"
+        tools:layout="@layout/yodsij" >
+        <action
+            android:id="@+id/ockvkcovbjiuhsdhusd"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/qosijdw" />
+    </fragment>
+    <fragment
+        android:id="@+id/qosijdw"
+        android:name="com.superking.parchisi.stary.nvucids.BeforeFiltr"
+        android:label="nibbobk"
+        tools:layout="@layout/gtijdfd" >
+        <action
+            android:id="@+id/action_beeeeforFiiilFragment_to_fiiilttterFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/zzoxkiaj" />
+    </fragment>
+    <fragment
+        android:id="@+id/zzoxkiaj"
+        android:name="com.superking.parchisi.stary.nvucids.FilterAvia"
+        android:label="moibvudf"
+        tools:layout="@layout/forkoe" />
+</navigation>
